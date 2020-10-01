@@ -48,7 +48,7 @@
 |        * Changelist
 |                - DXIO v31.445
 |                - [PLAT-61819] [IMP] CState-Boost is running in AVT when manual Overclocking in BIOS setup
-|                - [PLAT-62205] [IMP] Set OC_ROLARITY_CONTROL cause other registers change in PORT_CONTROL_CNTR0     
+|                - [PLAT-62205] [IMP] Set OC_ROLARITY_CONTROL cause other registers change in PORT_CONTROL_CNTR0
 |                - [PLAT-64414] [IMP] MultiBitHitCause Exception in Embedded PCO Silicon
 |        * Files
 |                - /proj/smu_rel/smu10/picasso/picasso.rev4.30.73.0.zip
@@ -65,7 +65,7 @@
 |        * Changelist
 |                - DXIO v31.443
 |                - [PLAT-61732] [IMP] ComboAM4 1006 RC1 bad word
-|                - [PLAT-62108] [IMP] UPEP Message 9 no response with reboot 1000 cycles, fail 1 of 20                
+|                - [PLAT-62108] [IMP] UPEP Message 9 no response with reboot 1000 cycles, fail 1 of 20
 |                - [PMFW-4210] [IMP] Allocate more space to extend section (reverted)
 |                - [PMFW-4653] [IMP] Disable PC6 wake interrupts during s0i3 resume until FCH is ready
 |                - [PMFW-4806] [IMP] Modifying external pcie FSDL to to avoid repetitive searching and message
@@ -84,7 +84,7 @@
 |        * Changelist
 |                - DXIO v31.443
 |                - [PMFW-4240] [UTB] EDC SOC Iddmax Vcn Cac value too large
-|                - [PMFW-4179] [IMP] Initialize negative peak temperature after AGM clear table                
+|                - [PMFW-4179] [IMP] Initialize negative peak temperature after AGM clear table
 |                - [PMFW-4210] [IMP] Allocate more space to extend section
 |        * Files
 |                - /proj/smu_rel/smu10/picasso/picasso.rev4.30.71.0.zip
@@ -787,7 +787,7 @@
 |                - [PLAT-39590] [IMP] BIOS message to set Fit limit scalar
 |                - [PMFW-473] [NEW] GFX Fmax override
 |                - [PLAT-39812] [WKA] Modern Standby S0i3 FW TPM Error in Event Viewer / System Log
-|                - [PLAT-39410] [IMP] Check MP2_FIRMWARE_FLAGS for MP2 handshake 
+|                - [PLAT-39410] [IMP] Check MP2_FIRMWARE_FLAGS for MP2 handshake
 |                - [PLAT-39702] [NEW] Modern Standby S0i3: SSID of LPC and SMBUS not save/restore
 |                - [PLAT-39349] [IMP] Add PostCode Level to CBS Option Enable SMU PostCode
 |                - [PMFW-519] [IMP] Update FIT Limits for 65W Config
@@ -997,13 +997,13 @@
 |                - [PMFW-224] [IMP] Add ACP Off to S0i3 Entry Condition (Improved)
 |                - [PMFW-228] [OPT] Picasso Should Lower the Core EDC CAC Scalar
 |                - [PLAT-36691] [UTB] NVMe Save/Rrestore for S0i3
-|                - [PMFW-199] [ETB] Potential race condition for CGPG power status update 
+|                - [PMFW-199] [ETB] Potential race condition for CGPG power status update
 |                - [PLAT-36063] [IMP] S0i3 idle mask does not update to disregard USB
 |                - [PMFW-204] [IMP] Add IdleMask to PostCodes after S0i3 OsHint (Improved)
 |                - [PMFW-256] [IMP] Disable gfxoff race condition
 |                - [PMFW-205] [IMP] Add MP1 FW logging code into release
 |                - [PMFW-263] [IMP] Remove NVMe Save and Restore from S0i3
-|                - [PMFW-15] [IMP] Park GfxClk into Bypass and turn off PLL when GfxClk Freq=200Mhz. 
+|                - [PMFW-15] [IMP] Park GfxClk into Bypass and turn off PLL when GfxClk Freq=200Mhz.
 |
 |        * Files
 |                - /proj/smu_rel/smu10/picasso/picasso.rev4.30.22.0.zip
