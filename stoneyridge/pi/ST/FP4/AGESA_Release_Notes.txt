@@ -56,7 +56,7 @@ Supported processors:
 
 2.  AGESA ENHANCEMENTS and FIXED BUGS after 1.3.0.8
 - PLAT-17087: Create a PCD to control PspMboxBiosClearSmmLock at RTB Event
-- PLAT-16146: Limit all BIOS-2-PSP commands after BOOT_DONE in SMM mode only 
+- PLAT-16146: Limit all BIOS-2-PSP commands after BOOT_DONE in SMM mode only
               using specified SMM command buffer
 - PLAT-15874: Move IOMMU IOAGR Programming to Early Init Phase
 - PLAT-25107: AGESA FCH modifies flash
